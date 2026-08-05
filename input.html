@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Formulir Pendaftaran</h2>
+    <form>
+        <table border="0" cellpadding="5">
+            <tr>
+                <td><label for="nama">Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" id="nama" name="nama" placeholder="Nama Lengkap"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>:</td>
+                <td><input type="email" id="email" name="email" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="password" name="password" placeholder="Password"></td>
+            </tr>
+            <tr>
+                <td><label for="umur">Umur</label></td>
+                <td>:</td>
+                <td><input type="number" id="umur" name="umur" placeholder="Umur"></td>
+            </tr>
+            <tr>
+                <td><label for="tgl">Tanggal Lahir</label></td>
+                <td>:</td>
+                <td><input type="date" id="tgl" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="jk-l" name="jenis_kelamin" value="laki-laki"> 
+                    <label for="jk-l">Laki-laki</label>
+                    <input type="radio" id="jk-p" name="jenis_kelamin" value="perempuan"> 
+                    <label for="jk-p">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" id="hobi-1" name="hobi" value="membaca"> 
+                    <label for="hobi-1">Membaca</label>
+                    <input type="checkbox" id="hobi-2" name="hobi" value="menulis"> 
+                    <label for="hobi-2">Menulis</label>
+                    <input type="checkbox" id="hobi-3" name="hobi" value="bermain"> 
+                    <label for="hobi-3">Bermain</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="jurusan">Jurusan</label></td>
+                <td>:</td>
+                <td>
+                    <select id="jurusan" name="jurusan">
+                        <option value="rpl">RPL</option>
+                        <option value="tkj">TKJ</option>
+                        <option value="mm">MM</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="foto">Foto Profil</label></td>
+                <td>:</td>
+                <td><input type="file" id="foto" name="foto"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="submit" value="Kirim"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
