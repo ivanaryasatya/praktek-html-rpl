@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+  <title>Sistem Pendaftaran Prakerin 2026/2027
+  </title>
+</head>
+
+<body>
+
+
+
+
+
+
+  <header>
+
+    <img src="assets/logo.png" alt="Logo Sekolah" width="60" />
+
+    <h1>SISTEM PENDAFTARAN PRAKERIN 2026/2027</h1>
+    <p><i>Lead, Experience, and Grow</i></p>
+  </header>
+
+  <hr>
+
+  <nav> 
+    <a href="#">Beranda</a> |
+    <a href="#">Informasi</a> |
+    <a href="#">Formulir</a> |
+    <a href="#">Panduan</a> |
+    <a href="#">Kontak</a>
+  </nav>
+
+  <hr>
+
+  <h2>Informasi Prakerin</h2>
+  <p><b>Periode:</b> Januari &ndash; Maret 2027</p>
+  <p><b>Peserta:</b> Siswa Kelas XI &amp; XII</p>
+  <p><b>Durasi:</b> 3 Bulan (&plusmn;90 Hari Kerja)</p>
+  <p><b>Lokasi:</b> Perusahaan / Instansi Mitra Sekolah</p>
+
+  <hr>
+  <h2>Data Lainnya</h2>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <th colspan="2">Formulir Pendaftaran</th>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <form>
+          <table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
+            <tr>
+              <td style="border-right: 1px solid black; border-bottom: 1px solid black;"><label for="nama">Nama Lengkap</label></td>
+              <td style="border-bottom: 1px solid black;"><input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" /></td>
+            </tr>
+            <tr>
+              <td style="border-right: 1px solid black; border-bottom: 1px solid black;"><label for="nis">NIS</label></td>
+              <td style="border-bottom: 1px solid black;"><input type="text" id="nis" name="nis" placeholder="Nomor Induk Siswa" /></td>
+            </tr>
+            <tr>
+              <td style="border-right: 1px solid black; border-bottom: 1px solid black;"><label for="kelas">Kelas</label></td>
+              <td style="border-bottom: 1px solid black;">
+                <select id="kelas" name="kelas">
+                  <option value="" disabled selected>-- Pilih Kelas --</option>
+                  <option value="XI-RPL-1">XI RPL 1</option>
+                  <option value="XI-TKJ-1">XI RPL 2</option>
+                  <option value="XI-MM-1">XI RPL 3</option>
+                  <option value="XI-RPL-1">XI RPL 4</option>
+                  <option value="XI-TKJ-1">XI RPL 5</option>
+                  <option value="XI-MM-1">XI RPL 6</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="border-right: 1px solid black; border-bottom: 1px solid black;"><label for="jurusan">Jurusan</label></td>
+              <td style="border-bottom: 1px solid black;">
+                <select id="jurusan" name="jurusan">
+                  <option value="" disabled selected>-- Pilih Jurusan --</option>
+                  <option value="RPL">Rekayasa Perangkat Lunak</option>
+                  <option value="TKJ">Teknik Komputer dan Jaringan</option>
+                  <option value="MM">pengembangan game</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="border-right: 1px solid black; border-bottom: 1px solid black;"><label for="Jenis kelamin">Jenis Kelamin</label></td>
+              <td style="border-bottom: 1px solid black;">
+                <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki" />
+                <label for="laki">Laki-laki</label>
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" />
+                <label for="perempuan">Perempuan</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="border-right: 1px solid black; border-bottom: 1px solid black;"><label for="tgl_lahir">Tanggal Lahir</label></td>
+              <td style="border-bottom: 1px solid black;"><input type="date" id="tgl_lahir" name="tgl_lahir" /></td>
+            </tr>
+            <tr>
+              <td style="border-right: 1px solid black; border-bottom: 1px solid black;"><label for="email">Email</label></td>
+              <td style="border-bottom: 1px solid black;"><input type="email" id="email" name="email" placeholder="Masukkan email" /></td>
+            </tr>
+            <tr>
+              <td style="border-right: 1px solid black; border-bottom: 1px solid black;"><label for="no_whatsapp">No. WhatsApp</label></td>
+              <td style="border-bottom: 1px solid black;"><input type="tel" id="no_whatsapp" name="no_whatsapp" placeholder="Masukkan nomor WhatsApp" /></td>
+            </tr>
+            <tr>
+              <td style="border-right: 1px solid black; border-bottom: 1px solid black;"><label for="bidang_prakerin">Bidang Prakerin</label></td>
+              <td style="border-bottom: 1px solid black;">
+                <select id="bidang_prakerin" name="bidang_prakerin">
+                  <option value="" disabled selected>-- Pilih Bidang Prakerin --</option>
+                  <option value="Web Development">Web Development</option>
+                  <option value="Mobile App Development">Mobile App Development</option>
+                  <option value="Game Development">Game Development</option>
+                  <option value="Data Science">Data Science</option>
+                  <option value="Cybersecurity">Cybersecurity</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td style="border-right: 1px solid black; border-bottom: 1px solid black;"><label for="lokasi_prakerin">Lokasi Prakerin</label></td>
+              <td style="border-bottom: 1px solid black;">
+                <select id="lokasi_prakerin" name="lokasi_prakerin">
+                  <option value="" disabled selected>-- Pilih Lokasi Prakerin --</option>
+                  <option value="disana">disana</option>
+                  <option value="disini">disini</option>
+                  <option value="di jogjaa">di jogjaa</option>
+                  <option value="dimana mana">dimana mana</option>
+                  <option value="di bandung">di bandung</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td style="border-right: 1px solid black; border-bottom: 1px solid black;"></td>
+              <td style="border-bottom: 1px solid black;"><input type="submit" value="Daftarkan" /></td>
+            </tr>
+          </table>
+        </form>
+
+
+
+      </td>
+
+
+    </tr>
+
+
+  </table>
+</body>
+
+</html>
