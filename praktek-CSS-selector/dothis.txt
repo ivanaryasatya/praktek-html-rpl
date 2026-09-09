@@ -1,0 +1,78 @@
+D. Praktikum: Latihan Terbimbing
+Pada praktikum ini kalian akan membuat halaman artikel sederhana lengkap dengan menu navigasi, lalu
+menerapkan selector lanjutan dan styling teks.
+
+Langkah 1 — Menyiapkan struktur HTML
+Buat folder baru praktikum-css-p2, lalu buat index.html dengan struktur berikut.
+<!DOCTYPE html>
+<html lang="id">
+<head>
+ <meta charset="UTF-8">
+ <title>Artikel Sederhana</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+ <nav>
+ <ul>
+ <li><a href="#">Beranda</a></li>
+ <li><a href="#">Artikel</a></li>
+ <li><a href="#">Kontak</a></li>
+ </ul>
+ </nav>
+ </header>
+ <section>
+ <h1>Mengenal CSS Lebih Dekat</h1>
+ <p>CSS membuat halaman web menjadi lebih menarik dan mudah dibaca.</p>
+ <button>Baca Selengkapnya</button>
+ </section>
+</body>
+</html>
+Langkah 2 — Membuat dan menghubungkan style.css
+Buat file style.css pada folder yang sama, seperti pada pertemuan sebelumnya.
+Langkah 3 — Menerapkan grouping selector
+h1, h2, h3 {
+ font-family: "Segoe UI", Arial, sans-serif;
+ color: #1F4E79;
+}
+Langkah 4 — Menerapkan descendant selector pada navigasi
+Gunakan descendant selector untuk menghilangkan garis bawah bawaan pada tautan di dalam nav, dan
+mengubah warnanya.
+nav a {
+ text-decoration: none;
+ color: #1F4E79;
+ font-weight: bold;
+}
+Langkah 5 — Menambahkan efek hover
+nav a:hover {
+ color: white;
+ background-color: #1F4E79;
+}
+Langkah 6 — Mengatur teks paragraf dan judul
+body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+}
+h1 {
+ text-align: center;
+}
+Langkah 7 — Mengatur tombol
+button {
+ background-color: rgb(31, 78, 121);
+ color: white;
+ padding: 8px 16px;
+}
+button:hover {
+ background-color: rgba(31, 78, 121, 0.7);
+}
+Langkah 8 — Menguji hasil
+Simpan seluruh berkas, buka pada browser, lalu arahkan kursor ke tautan navigasi dan tombol untuk menguji
+efek :hover yang telah dibuat.
+
+E. Latihan Praktik Mandiri
+Tugas: Halaman Menu Warung/Kedai
+Buatlah sebuah halaman HTML berisi nama warung sebagai judul dan daftar menu makanan/minuman
+beserta harganya.
+Ketentuan: gunakan grouping selector, minimal satu descendant selector, minimal satu pseudo-class
+:hover, dan minimal dua format warna berbeda (misalnya nama warna dan HEX).
+Atur juga font-family dan text-align pada judul halaman.
