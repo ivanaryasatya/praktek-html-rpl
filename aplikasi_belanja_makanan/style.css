@@ -1,0 +1,276 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #334155;
+    background-color: #f8fafc;
+}
+
+h1, h2, h3 {
+    color: #1e293b;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: #ea580c;
+    color: #ffffff;
+    border: 1px solid #ea580c;
+}
+
+.btn-primary:hover {
+    background-color: #c2410c;
+}
+
+#header {
+    background-color: #ffffff;
+    padding: 16px 5%;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+/* 
+.logo h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #ea580c;
+}
+
+.logo h2 span {
+    color: #0f172a;
+} */
+
+.navbar .nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list > li {
+    margin-left: 24px;
+}
+
+.navbar a {
+    color: #64748b;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: color 0.2s;
+}
+
+.navbar a:hover {
+    color: #ea580c;
+}
+
+#hero {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.hero-content > h1 {
+    font-size: 32px;
+    color: #0f172a;
+    margin-bottom: 14px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    max-width: 580px;
+    margin: 0 auto 24px auto;
+    color: #64748b;
+}
+
+#about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.about-card {
+    max-width: 700px;
+    margin: 16px auto 0 auto;
+    padding: 24px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+}
+
+.about-card p {
+    margin-bottom: 10px;
+    color: #475569;
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+#produk {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8fafc;
+}
+
+.section-subtitle {
+    color: #64748b;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.kategori-title {
+    font-size: 20px;
+    color: #1e293b;
+    text-align: left;
+    margin: 25px auto 16px auto;
+    width: 90%;
+    max-width: 1040px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.minuman-title {
+    margin-top: 40px;
+}
+
+
+.menu-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    width: 240px;
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 14px;
+}
+
+.card-body h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #0f172a;
+}
+
+.harga {
+    font-weight: 700;
+    font-size: 15px;
+    color: #ea580c;
+    margin-bottom: 8px;
+}
+
+.card-body p {
+    font-size: 13px;
+    color: #64748b;
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+.btn-beli {
+    display: block;
+    text-align: center;
+    background-color: #16a34a;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.btn-beli:hover {
+    background-color: #15803d;
+}
+
+#cta {
+    background-color: #ea580c;
+    color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cta-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-box h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cta-box p {
+    margin-bottom: 22px;
+    font-size: 15px;
+    color: #ffedd5;
+}
+
+.btn-cta {
+    background-color: #ffffff;
+    color: #ea580c;
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+.btn-cta:hover {
+    background-color: #fff7ed;
+}
+
+#footer {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 24px 15px;
+    border-top: 1px solid #1e293b;
+}
+
+.footer-content p {
+    font-size: 13px;
+    margin: 3px 0;
+}
